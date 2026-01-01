@@ -366,16 +366,27 @@ Each option must be clearly described and easy to access by number.
 The system is considered successful if:
 
 ✅ Works without any API key
+
 ✅ All configuration in text files
+
 ✅ Prompts for salary interactively
+
 ✅ Shows jobs one-by-one with full details including URLs
+
 ✅ Collects feedback per job as found
+
 ✅ Tracks applications through full lifecycle
+
 ✅ Implements 2-day URL rule with override
+
 ✅ Uses Y/n prompt style with defaults
+
 ✅ Configurable score threshold
+
 ✅ Clear path to API upgrade
+
 ✅ Comprehensive documentation
+
 ✅ Production-ready code quality
 
 ---
@@ -385,12 +396,19 @@ The system is considered successful if:
 The following were explicitly NOT required for Alpha version:
 
 ❌ Real web scraping (mock data acceptable for demo)
+
 ❌ API integration
+
 ❌ Web interface
+
 ❌ Email notifications
+
 ❌ Calendar integration
+
 ❌ Multi-user support
+
 ❌ Cloud deployment
+
 
 These may be added in future versions.
 
