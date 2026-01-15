@@ -11,7 +11,7 @@
 ## Learnings
 - AI does a cheerful bad job :-D
 - AI makes you feel drunk with power :-D
-- My prompts can produce tons of useless documentation :-D
-- It might be good to prompt AI about the design and not stop at requirements alone :-|
+- Prompts can produce tons of useless documentation :-D
+- It is good to prompt AI about the design and not stop at requirements alone :-|
 - ......
 - .......
