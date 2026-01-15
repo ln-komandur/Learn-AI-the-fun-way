@@ -9,7 +9,7 @@ Environment
 - Python 3.10
 
 Learnings
-- AI does cheerful bad job :-D
+- AI does a cheerful bad job :-D
 - AI makes you feel drunk with power :-D
 - ......
 - .......
