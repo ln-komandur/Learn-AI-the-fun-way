@@ -9,9 +9,9 @@
 - Python 3.10
 
 ## Learnings
-- AI does a cheerful bad job :-D
-- AI makes you feel drunk with power :-D
-- Prompts can produce tons of useless documentation :-D
-- It is good to prompt AI about the design and not stop at requirements alone :-|
+- AI does a **cheerful bad job** 😂
+- AI makes you **feel drunk with power** 😡🥵
+- Prompts can produce tons of **useless documentation** 😅
+- It is good to prompt AI about the design and **not stop at requirements** alone 😑
 - ......
 - .......
