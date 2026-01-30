@@ -14,7 +14,7 @@
 4. **State Code Normalization (Prompts 24-37):** KS ↔ Kansas conversion, matching fixes
 5. **Modular Architecture (Prompts 38-40):** Split into 10 separate modules
 6. **Skills & Expertise (Prompts 41-49):** Resume parsing, role extraction, classification
-7. **Bug Fixes & Polish (Prompts 50-52):** Cache validation, error codes, timestamps
+7. **Menu system, roles, thresholds, error codes, timestamps (Prompts 50-52):** Cache validation, error codes, timestamps
 
 ---
 
@@ -28,7 +28,7 @@ make this program click the "next" link or button and go to more pages and find 
 
 ---
 
-##**Configuration Management (Prompts 3-9):** Externalizing settings, JSON config
+## **Configuration Management (Prompts 3-9):** Externalizing settings, JSON config
 ### Prompt #3
 Without hard coding the capital one URL I gave you, can you externalize it into a file called "URLs.txt"? You may want to rename the scrapper python also to something other than capital_one. Place that ".txt" file in a folder called "Settings" and read it from there.
 Further, in the "Settings" folder, keep one more file called "My-Job-Titles.txt" which will list a few job titles I am interested to look at. When searching as well as listing, use that file to mark and show me whether a job matches the interest or not.
@@ -48,7 +48,7 @@ I am impressed with your "Example Console Output", but none of that is showing i
 ---
 
 # Session 2: Location Filtering Debug (2026-01-24)
-##**Location Matching (Prompts 7-23):** Location filtering, state codes, multi-location support
+## **Location Matching (Prompts 7-23):** Location filtering, state codes, multi-location support
 ### Prompt #7
 Please show the location of the job on a separate line.
 Also, create a separate "Locations.txt" file in the Settings folder with a few sample locations
@@ -112,7 +112,7 @@ You do not seem to account multiple locations being listed on a job. You seem to
 ---
 
 # Session 4: State Code Normalization (2026-01-25)
-##**State Code Normalization (Prompts 24-37):** KS ↔ Kansas conversion, matching fixes
+## **State Code Normalization (Prompts 24-37):** KS ↔ Kansas conversion, matching fixes
 ### Prompt #24
 The job listing or description seem to give the full name of the state e.g. Virginia. Whereas the preferences give only the 2 letter state code e.g. VA. This variation in the notation seems to cause an issue with matching jobs. You may want to use a static read-only file that helps you look up 2-digit state codes and full state names and match jobs consistently.
 
@@ -154,7 +154,7 @@ Please save this zip file with a name or tag to say that location match is worki
 ---
 
 # Session 5: Modular Architecture & Skills (2026-01-28)
-##**Modular Architecture (Prompts 38-40):** Split into 10 separate modules
+## **Modular Architecture (Prompts 38-40):** Split into 10 separate modules
 ### Prompt #38
 Without disturbing any functional behavior, split this application into separate programs that interact with each other. The intent is to facilitate AI learning through appropriate hooks later on. You can split like page-navigator (which takes care of summary page listing and layouts, pagination logic etc.), title-matcher (which takes care of % matching to job title preferences etc.), location-matcher (which will interact with page-navigator, and uses state codes etc.), settings-handler (which takes care of user preferences from the json)
 
@@ -168,7 +168,7 @@ Add a separate module for skill and expertise matching. It should parse a resume
 ---
 
 # Session 6: Resume parsing, role extraction, classification (2026-01-28)
-##**Skills & Expertise (Prompts 41-49):** Resume parsing, role extraction, classification
+## **Skills & Expertise (Prompts 41-49):** Resume parsing, role extraction, classification
 ### Prompt #41
 I hope you have not integrated the skill and expertise manager module yet with the rest of the application. Give me a menu in the very beginning where I can invoke it separately and test it. That menu can have the first option to go find jobs from the URL like the rest of the application we built. Also allow me to configure the number of years that delineates skills and expertise (I had given you 7 earlier, but put that in a settings file with other application settings)
 
@@ -201,7 +201,7 @@ Go ahead and generate the application code
 
 ---
 
-##**Bug Fixes & Polish (Prompts 50-52):** Cache validation, error codes, timestamps
+## **Menu system, roles, thresholds, error codes, timestamps (Prompts 50-52):** Cache validation, error codes, timestamps
 ### Prompt #50
 The program does not seem to read from the resume. The skills or roles or expertise it shows in the results are not in the resume at all. What's going on?
 
