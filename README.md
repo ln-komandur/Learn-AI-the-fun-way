@@ -8,6 +8,10 @@
 - Ubuntu 22.04
 - Python 3.10
 
+## Attempt 2 
+[Prompts for Evolutionary development](Attempt%202%20-%20Prompts%20for%20Evolutionary%20development.md)
+
+
 ## Learnings
 - AI does a **cheerful 🤡 bad job** 👹 
 - AI makes you **feel drunk 🍻with power** 😡
