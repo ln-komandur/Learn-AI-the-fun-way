@@ -18,10 +18,10 @@
 
 ---
 
-# Session 1: Initial Development (2026-01-24-18-24-08)
+# Session 1: Initial Development (2026-01-24)
 ## **Core Functionality (Prompts 1-2):** Initial scraper creation, pagination
 ### Prompt #1
-write a python3 program that I can run on ubuntu that will find the jobs listed on this page https://www.capitalonecareers.com/category/technology-jobs/234/4412/1 . It needs click on each job shown there and find more details about it such as job title, location, job description, job number etc.
+write a python3 program that I can run on ubuntu that will find the jobs listed on this page **{a url}**. It needs click on each job shown there and find more details about it such as job title, location, job description, job number etc.
 
 ### Prompt #2
 make this program click the "next" link or button and go to more pages and find more jobs
@@ -72,7 +72,7 @@ It is still broken. I am trying to download the zip file from before the prompt 
 
 ---
 
-## Session 3: JSON Config & Location Fixes (2026-01-25)
+# Session 3: JSON Config & Location Fixes (2026-01-25)
 ### Prompt #13
 Still broken. Here is the output. Something seems to be wrong in the threshold logic
 [output included showing broken behavior]
