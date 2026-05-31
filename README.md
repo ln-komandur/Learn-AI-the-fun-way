@@ -13,9 +13,9 @@
 
 
 ## Learnings
-- AI does a **cheerful 🤡 bad job** 👹 
+- *AI does a **cheerful 🤡 bad job** 👹* - NOT TRUE ALWAYS
 - AI makes you **feel drunk 🍻with power** 😡
-- Prompts can produce tons of **useless documentation** 📑 
+- *Prompts can produce tons of **useless documentation** 📑* - MAY NOT BE TRUE
 - It is good to prompt AI about the design and **not stop at requirements** alone 😑
 - ......
 - .......
